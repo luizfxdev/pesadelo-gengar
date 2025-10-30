@@ -36,13 +36,7 @@ Você acorda em uma cidade envolta por nuvens roxas e chamas misteriosas. A silh
 
 **Esse desafio testa não só seu conhecimento sobre a tipagem dos Pokémon, mas também estratégias para escapar de um dos maiores vilões dos pesadelos!**
 
----
 
-## 🎮 Demo
-
-![Demo Screenshot](https://via.placeholder.com/800x450/1a0a2e/c77dff?text=Pesadelo+do+Gengar)
-
----
 
 ## 🚀 Aplicação em Projetos Reais
 
