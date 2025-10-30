@@ -1,0 +1,25 @@
+{
+  "name": "pesadelo-gengar",
+  "version": "1.0.0",
+  "description": "Desafio Pokémon - Escape do Pesadelo do Gengar",
+  "main": "js/server.js",
+  "scripts": {
+    "start": "node js/server.js",
+    "dev": "nodemon js/server.js"
+  },
+  "keywords": [
+    "pokemon",
+    "gengar",
+    "desafio"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

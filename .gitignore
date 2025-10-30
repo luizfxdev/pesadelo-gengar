@@ -1,0 +1,45 @@
+# Node modules
+/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Environment variables
+.env
+.env.*.local
+
+# Build / output folders
+/dist/
+/build/
+/coverage/
+/.nyc_output/
+
+# Sass / cache
+.sass-cache/
+.cache/
+.parcel-cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Temp / packing
+*.tgz
+*.bak
+*.tmp
+
+# Optional: mídia pesada (descomente se não quiser versionar assets grandes)
+# /assets/*.mp4
+# /assets/*.mp3
+
+# Arquivos gerados pelo processo de build - ajuste conforme preferência
+/styles.css

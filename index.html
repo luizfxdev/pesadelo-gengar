@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pesadelo do Gengar - A Batalha pela Mente</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Creepster&family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Vídeo de Background -->
+    <video class="background-video" autoplay loop muted playsinline>
+      <source src="assets/background.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Áudio de Tema -->
+    <audio id="theme-audio" loop>
+      <source src="assets/theme.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- Controles de Áudio -->
+    <div class="audio-controls">
+      <button id="play-audio" class="audio-btn" title="Tocar música">🎵</button>
+      <button id="pause-audio" class="audio-btn" title="Pausar música">⏸️</button>
+    </div>
+
+    <!-- Container Principal -->
+    <div class="container">
+      <!-- Título do Desafio -->
+      <div class="header">
+        <h1 class="title glitch-title">Pesadelo do Gengar</h1>
+        <p class="subtitle">A Batalha pela Mente</p>
+      </div>
+
+      <!-- Descrição do Desafio -->
+      <div class="description">
+        <p>
+          Você acorda em uma cidade envolta por nuvens roxas e chamas misteriosas. A silhueta colossal do
+          <strong>Gengar</strong> domina o céu, seus olhos hipnóticos brilham intensamente.
+        </p>
+        <p>
+          Seu grupo está preso em um pesadelo que parece não ter fim —
+          <strong>a única saída é derrotar Gengar em batalha</strong>. Porém, não será fácil escapar da sua hipnose!
+        </p>
+
+        <div class="rules">
+          <h3>⚡ Como Funciona:</h3>
+          <ul>
+            <li>Escolha até <strong>6 Pokémon</strong> digitando os nomes em inglês separados por vírgula</li>
+            <li>
+              Se nenhum dos seus Pokémon puder enfrentar o poder do Gengar, ele usará
+              <strong>Comer Sonhos (Dream Eater)</strong>, te derrotando instantaneamente!
+            </li>
+            <li>O sistema irá conferir seu time — <strong>só quem conhece bem a lore Pokémon escapará!</strong></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Input de Entrada -->
+      <div class="input-section">
+        <label for="pokemon-input">Digite os nomes dos Pokémon (em inglês, separados por vírgula):</label>
+        <input
+          type="text"
+          id="pokemon-input"
+          placeholder="Ex: Pikachu, Charizard, Alakazam, Gengar, Umbreon, Garchomp"
+          autocomplete="off"
+        />
+      </div>
+
+      <!-- Botões -->
+      <div class="button-group">
+        <button id="duel-btn" class="pokeball-button">
+          <div class="pokeball unselected">
+            <div class="upper-half"></div>
+            <div class="lower-half"></div>
+            <div class="base"></div>
+            <div class="inner-circle"></div>
+            <div class="indicator"></div>
+            <div class="indicator-inner"></div>
+          </div>
+          <span>DUELAR</span>
+        </button>
+
+        <button id="return-btn" class="pokeball-button">
+          <div class="pokeball unselected">
+            <div class="upper-half"></div>
+            <div class="lower-half"></div>
+            <div class="base"></div>
+            <div class="inner-circle"></div>
+            <div class="indicator"></div>
+            <div class="indicator-inner"></div>
+          </div>
+          <span>RETORNAR</span>
+        </button>
+      </div>
+
+      <!-- Seção de Resultado -->
+      <div id="result-section" class="result-section hidden">
+        <label>Resultado da Batalha:</label>
+        <div id="result-output"></div>
+      </div>
+    </div>
+
+    <script src="js/button.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
